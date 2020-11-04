@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="58b6b33d-4bc0-42ae-9783-12ee6f3eaccc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1jorP5dYAyznRZAqOhdygthVzzj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.19.3" />
+    <property name="last_opened_file_path" value="$USER_HOME$/nodejs-projects/url-shortener" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" node-parameters="nodemon index.js" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58b6b33d-4bc0-42ae-9783-12ee6f3eaccc" name="Default Changelist" comment="" />
+      <created>1604481258227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604481258227</updated>
+      <workItem from="1604481259643" duration="24064000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604481768583">
+      <screen x="0" y="0" width="1920" height="1038" />
+    </state>
+    <state x="418" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1038@0.0.1920.1038" timestamp="1604481768583" />
+    <state x="652" y="321" width="605" height="398" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604511857831">
+      <screen x="0" y="0" width="1920" height="1038" />
+    </state>
+    <state x="652" y="321" width="605" height="398" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1038@0.0.1920.1038" timestamp="1604511857831" />
+    <state x="743" y="227" width="424" height="586" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1604481730058">
+      <screen x="0" y="0" width="1920" height="1038" />
+    </state>
+    <state x="743" y="227" width="424" height="586" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1038@0.0.1920.1038" timestamp="1604481730058" />
+    <state x="743" y="277" width="424" height="486" key="FileChooserDialogImpl" timestamp="1604483609777">
+      <screen x="0" y="0" width="1920" height="1038" />
+    </state>
+    <state x="743" y="277" width="424" height="486" key="FileChooserDialogImpl/0.0.1920.1038@0.0.1920.1038" timestamp="1604483609777" />
+  </component>
+</project>

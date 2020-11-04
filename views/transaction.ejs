@@ -1,0 +1,34 @@
+<html>
+<link rel="stylesheet" href="/transaction.css">
+<body>
+
+<div class="container">
+    <div><img src="/face.svg" width="150px" height="150px"></div>
+<div class="header">
+    Hello <span><%=person.firstname+" "+person.lastname%></span>
+</div>
+    <div class="header2"> Account Balance : <span><span>&#8377;</span> <%=person.balance%></span></div>
+<div class="frm">
+<form action="/transact/<%=person.account_no%>" method="post">
+    <div class="dropdown">
+        <label>Send to : </label>
+    <select id="name" name="name">
+
+        <option>Select the person</option>
+        <%details.forEach((detail)=>{%>
+        <%if(detail.account_no!=acno){%>
+                <option value="<%=detail.firstname%>" name="name"><%=detail.firstname+" "+detail.lastname%></option>
+        <%}%>
+        <%})%>
+
+    </select>
+    </div>
+
+<input required type = "number" name="amount" placeholder="Enter the amount">
+<input type="submit" value="Transfer">
+</form>
+</div>
+</div>
+</body>
+
+</html>
