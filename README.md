@@ -20,4 +20,8 @@ npm start
 localhost:3000
 ```
 
-
+### Working Sample (Hosted at Heroku)
+```
+https://banking-website.herokuapp.com/
+```
+` Note : To run the app locally you need your own mongodb credentials inside .env file.`
