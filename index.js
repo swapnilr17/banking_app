@@ -6,25 +6,33 @@ const ejs = require("ejs");
 const bank = require('./Models/customer');
 const transaction = require('./Models/transaction');
 const app = express();
-const username = process.env.username;
-const password = process.env.password;
+
 app.use(express.urlencoded({extended: false}));
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
+const username = process.env.username;
+const password = process.env.password;
+
+//Mongoose connect
 mongoose.connect('mongodb+srv://'+username+':'+password+'@database.kdl58.mongodb.net/banking?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});
 
+
+//Get request to / route
 app.get('/',async (req,res)=>{
     const customers= await bank.find();
     res.render('home',{details:customers});
 })
 
+//Get request to /transaction route
 app.get('/transaction',async (req,res)=>{
     const customers= await bank.find();
     const person = await bank.findOne({account_no:req.query.acno});
     res.render('transaction',{details:customers,acno:req.query.acno,person:person});
 })
 
+
+//Post request to /transact/:sender route
 app.post('/transact/:sender',async(req,res)=>{
     const amount = req.body.amount;
     const receiver_name = req.body.name;
@@ -46,13 +54,13 @@ app.post('/transact/:sender',async(req,res)=>{
     }
 })
 
-
+//Get request to /trecord route
 app.get('/trecord',async (req,res)=>{
     const customers= await transaction.find();
     res.render('transaction-record',{details:customers});
 })
 
-
+//Listening on PORT
 app.listen(process.env.PORT||3000,()=>{
     console.log("Server is running");
 })
