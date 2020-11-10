@@ -14,10 +14,6 @@ const bankSchema = mongoose.Schema({
         required:true
 
     },
-    email:{
-      type:String,
-      required:true
-    },
     balance:{
         type:Number,
         required:true

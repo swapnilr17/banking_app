@@ -41,7 +41,6 @@ app.post('/transact/:sender',async(req,res)=>{
     if(detail.balance>=amount)
     {
         const detail2 = await bank.findOne({firstname:receiver_name});
-        console.log(detail2);
         detail2.balance=parseInt(detail2.balance) + parseInt(amount);
         detail.balance=detail.balance - amount;
         detail.save();

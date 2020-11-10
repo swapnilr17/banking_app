@@ -1,0 +1,10 @@
+.navbar{
+    height:70px;
+    width:100%;
+    display:flex;
+    background:#343A40;
+    align-items:center;
+}
+img{
+    margin-left: 10px;
+}
